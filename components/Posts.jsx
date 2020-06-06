@@ -19,6 +19,7 @@ function Posts(props){
                     _.map(api,(article,idx)=>(
                         <PostSnippet
                             key = {idx} 
+                            id ={idx}
                             title={article.title} 
                             content={article.content} 
                         />
